@@ -35,6 +35,7 @@ const Review = () => {
 
   const randonPerson = () => {
     let randonNumber = Math.floor(Math.random() * (people.length))
+    // se o numero gerado for igual a posição atual, adiciona + 1
     if (randonNumber === index) {
       randonNumber = index + 1;
     }
